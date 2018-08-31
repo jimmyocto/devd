@@ -43,7 +43,6 @@
   digest = "1:04db05c7fe09966c21f86325b41bcd58066f9ec21546ee21d6b40b0ff9d30f58"
   name = "github.com/cortesi/devd"
   packages = [
-    ".",
     "fileserver",
     "httpctx",
     "inject",
@@ -214,7 +213,6 @@
   input-imports = [
     "github.com/GeertJohan/go.rice",
     "github.com/GeertJohan/go.rice/embedded",
-    "github.com/cortesi/devd",
     "github.com/cortesi/devd/fileserver",
     "github.com/cortesi/devd/httpctx",
     "github.com/cortesi/devd/inject",
